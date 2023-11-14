@@ -10,7 +10,7 @@ mod 'puppetlabs/concat',  '9.0.0'
 mod 'puppetlabs-dropsonde', '0.2.0'
 mod 'puppetlabs-motd', '7.1.0'
 mod 'puppetlabs-puppet_operational_dashboards', '2.1.0'
-
+mod 'puppetlabs-apache', '11.1.0'
 
 
 
