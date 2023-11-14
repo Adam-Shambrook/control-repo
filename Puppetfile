@@ -12,6 +12,7 @@ mod 'puppetlabs-motd', '7.1.0'
 mod 'puppetlabs-puppet_operational_dashboards', '2.1.0'
 mod 'puppetlabs-apache', '11.1.0'
 mod 'puppetlabs-registry', '4.0.1'
+mod 'puppetlabs-iis', '8.0.3'
 
 mod 'datadog-datadog_agent', '3.21.0'
 mod 'puppetlabs-ruby', '1.0.1'
