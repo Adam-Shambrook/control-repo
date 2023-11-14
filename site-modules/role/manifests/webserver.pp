@@ -3,5 +3,6 @@
 
 # This role creates a webserver hosting a customer facing webpage
 class role::webserver {
+  include profile::apache
   include profile::base
 }
