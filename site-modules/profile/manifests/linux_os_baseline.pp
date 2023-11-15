@@ -6,6 +6,6 @@
 #   include profile::linux_os_baseline
 class profile::linux_os_baseline {
     class { 'motd':
-    content => "\n\nWoof! You are in a Datadog ${trusted['extensions']['pp_role']} node.\n\nThis is a ${trusted['extensions']['pp_environment']} machine. Follow the rules. \n\n"
+    content => "\n\n ,-.___,-.\n\\_\/_ _\\_\/\n  )O_O(\n { (_) }\n  `-^-'\nWoof! You are in a Datadog ${trusted['extensions']['pp_role']} node.\n\nThis is a ${trusted['extensions']['pp_environment']} machine. Follow the rules. \n\n"
   }
 }
