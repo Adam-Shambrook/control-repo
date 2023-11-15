@@ -4,5 +4,6 @@
 # This role creates a webserver hosting a customer facing webpage
 class role::webserver {
   include profile::apache
-  include profile::base
+  include profile::linux_security_baseline
+  include profile::linux_os_baseline
 }
